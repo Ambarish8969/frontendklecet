@@ -12,7 +12,7 @@ function Home() {
                     </div>
                     <li><Link to={"/about"}>About</Link></li>
                     <li><Link to={"/contact"}>Contact</Link></li>
-                    <li><Link to={"/services"}>Services</Link></li>
+                    <li><Link to={"/branches"}>Branches</Link></li>
                     
                     <Link to={"/login"}><button className="login_button" type="submit" href>Login</button></Link>
                     <Link to={"/register"}><button className="register_button" type="submit">Register</button></Link>
