@@ -1,17 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
+import { BrowserRouter } from "react-router-dom";
+
+// const myname = "Ambarish Bhagawati";
+// const currDate = new Date().toLocaleDateString();
+// const currTime = new Date().toLocaleTimeString();
 
 ReactDOM.render(
-  <React.StrictMode>
+  <BrowserRouter>
+    {/* <h1>My Name is {myname}.</h1>
+    <h1 contentEditable='true'>My Name is {myname}.</h1>
+    <h1>Addition of 5 and 3 is : {5 + 3}</h1>
+    <h2>CurrentDate is : {currDate} </h2>
+    <h2>CurrentTime is : {currTime} </h2> */}
     <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+  </BrowserRouter>, document.getElementById('root'));
