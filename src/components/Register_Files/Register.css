@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.register-card-page {
+  height: 100vh;
+  background: linear-gradient(blue, pink);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.register-card {
+  background-color: white;
+  border: 2px solid white;
+  padding: 5px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 12px black;
+}
+h2.register-head {
+  text-align: center;
+  padding: 20px;
+  color: blue;
+  text-decoration: underline;
+}
+.fn,
+.ln,
+.pn,
+.py,
+.usn,
+.email {
+  padding: 8px;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid black;
+}
+.register-button,
+.login-button {
+  background: -webkit-linear-gradient(right, #a6f77b, #2dbd6e);
+  border: none;
+  border-radius: 21px;
+  box-shadow: 0px 0px 8px #24c64f;
+  cursor: pointer;
+  color: white;
+  height: 42.3px;
+  margin: 0 auto;
+  transition: 0.25x;
+  width: 153px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+button.login-button {
+  text-decoration: none;
+}
