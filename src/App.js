@@ -2,7 +2,7 @@ import React from "react";
 import { Route, Switch } from "react-router-dom";
 import Home from "./components/Home_Files/Home";
 import Login from "./components/Login_Files/Login";
-// import Error from "./components/Error";
+import Error from "./components/Error_Files/Error";
 import About from "./components/About_Files/About";
 // import Userinfo from "./components/Userinfo";
 import Register from "./components/Register_Files/Register";
