@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header-ul {
+  list-style-type: none;
+  background-color: rgb(85, 85, 226);
+  overflow: hidden;
+}
+.header ul li {
+  float: left;
+}
+.active-link-home li a.activehome {
+  color: black;
+  background-color: white;
+}
+.header ul li a {
+  color: white;
+  display: block;
+  padding: 14px 16px;
+  margin: 0;
+  text-decoration: none;
+}
+.header ul li a:hover {
+  background-color: rgb(172, 189, 188);
+  color: black;
+  cursor: pointer;
+}
+.login_button {
+  float: right;
+  padding: 5px;
+  margin: 8px;
+  margin-right: 25px;
+  background-color: aqua;
+  border: 1px solid aqua;
+  border-radius: 15px;
+  width: 55px;
+  box-shadow: 0 0 10px aquamarine;
+}
+.login_button:hover {
+  cursor: pointer;
+  transform: scale(0.9);
+}
+.register_button {
+  float: right;
+  padding: 5px;
+  margin: 8px;
+  background-color: aqua;
+  border: 1px solid aqua;
+  border-radius: 15px;
+  width: 75px;
+  box-shadow: 0 0 10px aquamarine;
+}
+.register_button:hover {
+  cursor: pointer;
+  transform: scale(0.9);
+}
+.clgname {
+  color: orangered;
+  text-align: center;
+  padding: 5px;
+}
+.clg-image {
+  /* border: 2px solid black; */
+  /* margin: 25px 450px; */
+  height: 600px;
+  width: 950px;
+  box-shadow: 0 0 12px black;
+}
+.clg-image-text {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.clg-vision {
+  border: 1px solid white;
+  box-sizing: border-box;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.clg-vision h3 {
+  color: rgb(223, 156, 33);
+}
+.clg-mission {
+  border: 1px solid white;
+  box-sizing: border-box;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.clg-mission h3 {
+  color: rgb(223, 156, 33);
+}
+.footer {
+  background-color: rgb(78, 76, 76);
+  padding: 20px;
+  color: white;
+  text-align: center;
+  overflow: hidden;
+}
+.footer ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer li {
+  padding: 14px 16px;
+}
+.footer li:hover {
+  cursor: pointer;
+  font-size: 20px;
+}
